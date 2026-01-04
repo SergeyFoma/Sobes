@@ -4,7 +4,50 @@ https://blog.skillfactory.ru/voprosy-s-sobesedovaniy-po-python/
 https://translated.turbopages.org/proxy_u/en-ru.ru.ab9557a1-6953ac9c-4d01cb74-74722d776562/https/hackr.io/blog/top-django-interview-questions-and-answers
 https://sobes-on.ru/?utm_source=yandex&utm_medium=cpc&utm_campaign=706000380&utm_content=17512358068&utm_term=---autotargeting&etext=2202.WbpQAZe4arWJ3Xv6-gx-dkVrxGLlly_YVwH-s_asccpVMWLPIPxDwH9McImLhXpmv9S7pfFJYNF_iVRoxwTTXjEKjZBixJl218I8pIZyxy5kbmpkdWZndHN2enZhd2dy.42824bef12288818a59d1cfa9fb037b02401395a&yclid=5727833406621089791&ybaip=1
 
+https://tproger.ru/search?searchid=2415386&text=python+%D0%B4%D0%B5%D0%BA%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D1%8B&web=0
+
 https://habr.com/ru/companies/amvera/articles/856798/
+
+range - https://skillbox.ru/media/code/funkciya-range-v-python/
+
+
+Cкачать видео с rutube - https://video-download.ru/  
+---------------------------------------------------------------------------
+1.python
+2.django
+3.GIT 
+4.Docer
+5.REST 
+6.Redis 
+7.Njinx
+8.VSCode 
+9.JS 
+10.HTML 
+11.CSS 
+12.Postgresql
+---------------------------------------------------------------------------
+                    Library
+1. os
+2. sys 
+3. match
+4. enumerate 
+5. time 
+
+
+---------------------------------------------------------------------------
+                    Functions
+1. range
+2. random
+3. return
+4. print 
+5. input 
+6. include
+
+----------------------------------------------------------------
+                methods
+1. __doc__
+2. __str__ 
+
 
 
 1. В чем разница между списком и кортежем?
