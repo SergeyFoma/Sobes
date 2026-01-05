@@ -48,3 +48,32 @@ for i in range(1, 5):
     for j in range(1, 6):
         print(i*j, end='\t')
     print()
+
+# С помощью вложенных циклов можно рисовать геометрические фигуры. 
+# Например, построим прямоугольник из звёздочек:
+for i in range(3):
+    for j in range(5):
+        print('*', end=' ')
+    print()
+
+#Как применять range() с функцией len()
+grades = [23, 56, 98, 67, 83,100] # список баллов студентов (list of student scores.)
+for i in range(len(grades)):
+    print(f'Student №{i+1} - ball = {grades[i]}')
+
+# Таким же способом можно изменять элементы списка в цикле:
+number = [13, 14, 55, 32]
+for i in range(len(number)):
+    for j in number:
+        print(f'{i+1}={j*2}')
+    print()
+
+for i in range(len(number)):
+    print((number[i])*3, end=', ')
+
+# В цикле for можно работать с двумя списками одновременно:
+names = ['Anna', 'Kris', 'Djoanna']
+age = [45, 32, 88]
+for i in range(len(names)):
+    for j in age:
+        print(names[i],'=  ',)
