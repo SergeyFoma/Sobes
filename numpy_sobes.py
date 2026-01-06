@@ -1,0 +1,1 @@
+# https://skillbox.ru/media/code/funkciya-range-v-python/

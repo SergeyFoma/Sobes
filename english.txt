@@ -1,3 +1,10 @@
 grades - оценки
 greetings - приветствие
 loop nested - список вложенный
+combined - комбинированный
+quantity - количество
+price - цена
+update - обновить
+get - 
+full - полный
+change price - изменить цену
