@@ -8,3 +8,4 @@ update - обновить
 get - 
 full - полный
 change price - изменить цену
+class constructor - конструктор класса

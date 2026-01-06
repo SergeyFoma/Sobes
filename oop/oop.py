@@ -18,10 +18,14 @@ class Product:
         self.name = name
         self.price = price
         self.quantity = quantity
+        
 
     # Создаём метод класса для обработки цены
     def get_full_price(self):
         return self.price * self.quantity
+    
+    def update_price(self, new_price):
+        self.price = int(new_price)
 
 # создаём объект(экземпляр класса)
 prod1 = Product("Рис", 123, 34)
@@ -33,3 +37,8 @@ print(milk.name, milk.price, milk.quantity)
 
 print('get full price', milk.get_full_price())
 print('prod1', prod1.get_full_price())
+
+prod1.update_price(new_price=100)
+print('update_price=', prod1.get_full_price())
+
+
