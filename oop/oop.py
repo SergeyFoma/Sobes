@@ -18,21 +18,28 @@ class Product:
         self.name = name
         self.price = price
         self.quantity = quantity
-        
+        self.currency = 'Rub.'
 
     # Создаём метод класса для обработки цены
+    #def get_full_price(self, currency='rub'):
     def get_full_price(self):
-        return self.price * self.quantity
+        full_price = self.price * self.quantity # переменные метода
+        result = f'{full_price}{self.currency}'      #  переменные метода
+        return result
     
     def update_price(self, new_price):
         self.price = int(new_price)
+
+    def set_currency(self, currency):
+        self.currency = currency.lower()
+
 
 # создаём объект(экземпляр класса)
 prod1 = Product("Рис", 123, 34)
 print(prod1.name)
 print(prod1.price * prod1.quantity)
 
-milk = Product('Milk', 120)
+milk = Product('Milk', 120, 20)
 print(milk.name, milk.price, milk.quantity)
 
 print('get full price', milk.get_full_price())
@@ -41,4 +48,7 @@ print('prod1', prod1.get_full_price())
 prod1.update_price(new_price=100)
 print('update_price=', prod1.get_full_price())
 
-
+# print(milk.get_full_price(currency=' USD'))
+# print(prod1.get_full_price(currency=' Krona'))
+milk.set_currency(currency='R.')
+print(milk.name, milk.currency)

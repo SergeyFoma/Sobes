@@ -9,3 +9,7 @@ get -
 full - полный
 change price - изменить цену
 class constructor - конструктор класса
+currency - валюта
+month - месяц
+power - сила, мощность
+rate - ставка
