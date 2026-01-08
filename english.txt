@@ -13,3 +13,9 @@ currency - валюта
 month - месяц
 power - сила, мощность
 rate - ставка
+example - пример
+Did you mean - Вы имели в виду.
+employee - работник
+self - сам 
+owner - владелец 
+balance - баланс 

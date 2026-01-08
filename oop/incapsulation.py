@@ -120,3 +120,94 @@ print("Price - ", table.get_price_discount())
 
 table.set_price(200)
 print("Set_price=", table.get_price_discount())
+
+# ---------------------------------------------------------
+# https://pyhub.ru/python-oop/lecture-17-50-92/
+
+class Example:
+    def __init__(self):
+        self.attr1="Публичный аттрибут"
+        self._attr2 = "Не публичный аттрибут"
+        self.__attr3="Приватный аттрибут"
+
+    # def display(self):
+    #     print('Public = {self.attr1}')
+
+example1 = Example()
+print(example1.attr1)
+print(example1._attr2)
+# print((example1.__attr3))
+
+
+# Защищённый (protected) доступ
+# Защищённые атрибуты и методы принято обозначать одним подчеркиванием (_) в начале их имени. 
+# Это является сигналом для разработчиков, что данные не предназначены для внешнего использования, 
+# хотя Python технически не запрещает их доступ извне. 
+# Это больше соглашение, чем реальная защита:
+class Employee:
+    def __init__(self, name, salary):
+        self.name=name 
+        self._salary=salary
+        self.currency='Rub.'
+
+    def display_salary(self):
+        print(f"Salary employee {self.name} = {self._salary} {self.currency}")
+
+    
+
+empl1=Employee('Bob', 200000)
+empl1._salary=50000
+empl1.currency='$'
+empl1.display_salary()
+
+'''Приватный (private) доступ
+Для строгого ограничения доступа используется приватный режим. 
+Приватные атрибуты и методы начинаются с двух подчеркиваний (__). 
+Такие атрибуты недоступны напрямую извне класса и могут быть использованы только внутри самого класса.'''
+class BankAccount:
+    def __init__(self, owner, balance):
+        self.__owner=owner
+        self.__balance=balance
+
+    def show_balance(self):
+        print(f"Owner {self.__owner} Balance {self.__balance}")
+
+ba1=BankAccount('Biba', 322332)
+#print(ba1.__owner, ba1.__balance)
+ba1.show_balance()
+
+# Работа с приватными атрибутами через методы
+# Приватные атрибуты можно сделать доступными через специальные методы, например, для чтения данных:
+
+class BancAccount:
+    def __init__(self, owner, balance):
+        self.__owner=owner
+        self.__balance=balance
+
+    def show_balance(self):
+        print(f"Owner {self.__owner} balance {self.__balance}")
+
+    def get_owner(self):  # В данном примере метод get_owner позволяет безопасно получить информацию о владельце счета, не раскрывая сам атрибут напрямую.
+        return self.__owner
+
+account1 = BancAccount('Boba', 500)
+account1.show_balance()
+#print(account1.__owner)
+print(account1.get_owner())
+
+print('-----'*20)
+
+'''Доступ к приватным атрибутам извне через обход
+Несмотря на приватность, в Python всё ещё можно получить доступ к приватным данным с помощью 
+специального синтаксиса. Это называется "name mangling" (искажение имени). 
+Имена приватных атрибутов и методов преобразуются Python во внутреннюю форму, к которой можно обратиться
+Таким образом, используя внутреннее имя, мы всё-таки можем получить доступ к приватным атрибутам. 
+Однако это считается плохой практикой и противоречит принципам инкапсуляции.'''
+
+class BankAccount:
+    def __init__(self, owner, balance):
+        self.__owner=owner
+        self.__balance=balance
+
+account=BankAccount('Mia', 350)
+print(account._BankAccount__owner, account._BankAccount__balance)
