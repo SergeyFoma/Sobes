@@ -19,3 +19,7 @@ employee - работник
 self - сам 
 owner - владелец 
 balance - баланс 
+current - текущий
+current task - текущая задача
+I miss - я скучаю
+amount - сумма
