@@ -23,3 +23,6 @@ current - текущий
 current task - текущая задача
 I miss - я скучаю
 amount - сумма
+places - места
+seating - сидение
+standing - стоящий
