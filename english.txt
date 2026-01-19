@@ -26,3 +26,4 @@ amount - сумма
 places - места
 seating - сидение
 standing - стоящий
+follow - следовать
