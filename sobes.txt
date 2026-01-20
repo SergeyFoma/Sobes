@@ -71,11 +71,11 @@ Cкачать видео с rutube - https://video-download.ru/
 16. Что означает self в классе? # https://www.w3schools.com/python/python_class_self.asp
 17. Как объединить списки в Python?
 
-18. В чем разница между глубокой и мелкой копиями?
+18. В чем разница между глубокой и мелкой копиями? https://sky.pro/wiki/javascript/deep-copy-v-python-kak-rabotaet-primery-i-alternativy/
     I) Поставьте ссылку на исходный объект
     II) Создайте мелкую копию оригинала
     III) Создайте глубокую копию
-19. В чем разница между списками и массивами?
+19. В чем разница между списками и массивами? https://dzen.ru/a/X6oTOIms5A2aBWPv - https://docs.python.org/3/tutorial/datastructures.html - https://sky.pro/wiki/python/python-kogda-ispolzovat-modul-array-vmesto-list/
 20. Как объединить два массива?
 21. Что вам нравится в Python?
 22. Какая ваша любимая библиотека в Python?

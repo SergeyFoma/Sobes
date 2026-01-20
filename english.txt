@@ -27,3 +27,4 @@ places - места
 seating - сидение
 standing - стоящий
 follow - следовать
+deep - глубокий
