@@ -76,12 +76,13 @@ Cкачать видео с rutube - https://video-download.ru/
     II) Создайте мелкую копию оригинала
     III) Создайте глубокую копию
 19. В чем разница между списками и массивами? https://dzen.ru/a/X6oTOIms5A2aBWPv - https://docs.python.org/3/tutorial/datastructures.html - https://sky.pro/wiki/python/python-kogda-ispolzovat-modul-array-vmesto-list/
-20. Как объединить два массива?
+20. Как объединить два массива?  https://www.freecodecamp.org/news/python-array-tutorial-define-index-methods/  https://docs.python.org/3/library/array.html
 21. Что вам нравится в Python?
 22. Какая ваша любимая библиотека в Python?
 23. Назовите изменяемые и неизменяемые объекты
-24. Как округлить число до трех десятичных знаков?
-25. Как разбить список?
+
+24. Как округлить число до трех десятичных знаков?  ---# print(round(34.4565465), 3)
+25. Как разбить список? ---#В Python список можно разбить на части с помощью срезов, цикла for или метода split().
 26. Что такое pickle?
 27. Какая разница между словарями и JSON?
 28. Какие ORM вы использовали в Python?
