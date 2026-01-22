@@ -5,25 +5,40 @@
 
 #  https://tproger.ru/articles/v-chem-raznica-mezhdu-is-i-v-python-241937
 
-a=23
-b=23
-c=a
-d=12
+a=123
+b=123
+print("ID= ", id(a), id(b))
+print('A is B= ', a is b)
+print('A == B= ', a == b) 
 
-print(a is c)
-print(a is b)
-print(b is c)
-print(a==b)
-print(a==c)
-print(b==c)
-print(a is d)
-print(b == d)
+al=[1,2,3]
+bl=[1,2,3]
+cl=al
+print(al is bl)
+print(al == bl)
+print(cl is al, cl == al, cl is bl, al is bl, cl == bl)
+print(id(al), id(bl), id(cl))
 
-a=[1,2,3,4]
-b=[1,2,3,4]
-c=b
-print()
-print(a is b)
-print(a == b)
-print(c is b)
-print(c == b)
+# x=256
+# y=256
+# z=x
+# print(x is y, x is z, x == y, x == z, y ==z, y is z)
+
+x=25705
+y=25705
+z=x
+print(x is y, x is z, x == y, x == z, y ==z, y is z)
+
+xs='asd'
+zx='asd'
+xz=zx
+print(xs is zx, xs == zx, id(xs), id(zx), id(xz))
+
+at=(1,2,3)
+st=(1,2,3)
+za=at
+print(id(at), id(st), id(za), at is st, at == st, st is za, st == za)
+
+seta={'1':1,'2':2,'3':3}
+setb={'1':1,'2':2,'3':3}
+print(seta is setb, seta == setb, id(seta), id(setb))
