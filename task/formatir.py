@@ -144,6 +144,17 @@ m = int(m)
 k = int(k)
 
 #for i in range(1, m+1):
-print((((m-n+k)-n+k)-n+k)-n)
-    # for x in range(1, n+1):
-    #     print(m-n)
+#print((((m-n+k)-n+k)-n+k)-n)
+if (m-n)!= 0:
+    res=m-n+k
+    #print(res)
+
+x=m-n+k
+y=x-n+k
+print(x)
+print(y)
+while x < (m+1)-n+k:
+    print('x= ', x)
+    print('y= ', y)
+    x += 1
+    y += 1
