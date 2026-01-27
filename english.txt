@@ -27,4 +27,8 @@ places - места
 seating - сидение
 standing - стоящий
 follow - следовать
-deep - глубокий
+deep - 
+built - выполненный, построенный
+is even - является четным
+digits - цифры
+fix it - исправь это
