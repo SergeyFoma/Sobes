@@ -61,9 +61,9 @@ Cкачать видео с rutube - https://video-download.ru/
 6. Определите класс car с двумя атрибутами: color и speed. Затем создайте экземпляр и верните speed
 7. В чем разница между методами экземпляра, класса и статическими методами в Python?
 8. В чем разница между func и func()?
-9. Объясните, как работает функция map
-10. Объясните, как работает функция reduce
-11. Объясните, как работает функция filter
+9. Объясните, как работает функция map -- 
+10. Объясните, как работает функция reduce --- https://ya.zerocoder.ru/pgt-ponimanie-funkcii-reduce-v-python/
+11. Объясните, как работает функция filter --- https://thecode.media/funkciya-filter-v-python/
 12. Переменные в Python передаются по ссылке или по значению? # https://dvmn.org/encyclopedia/qna/26/v-pitone-peremennye-peredajutsja-po-ssylke-ili-po-znacheniju-est-podvodnye-kamni/
 13. Как развернуть список?
 14. Как работает умножение строк?
