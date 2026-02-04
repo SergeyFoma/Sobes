@@ -82,15 +82,15 @@ Cкачать видео с rutube - https://video-download.ru/
 23. Назовите изменяемые и неизменяемые объекты
 24. Как округлить число до трех десятичных знаков?  ---# print(round(34.4565465), 3)
 25. Как разбить список? ---#В Python список можно разбить на части с помощью срезов, цикла for или метода split().
+26.  https://kurshub.ru/journal/blog/chto-takoe-modul-pickle-v-python/
+27. Какая разница между словарями и JSON? https://sky.pro/wiki/python/kak-preobrazovat-slovar-v-json-v-python/
+28. Какие ORM вы использовали в Python? https://sky.pro/wiki/python/rabota-s-bazami-dannyh-v-python-osnovnye-biblioteki-i-primery/
+29. Как работают any() и all()? https://pythonist.ru/kak-ispolzovat-funkczii-all-i-any-v-python/
+30. Где быстрее поиск: в словарях или списках? https://www.geeksforgeeks.org/python/time-complexities-of-python-dictionary/
+31. В чем разница между модулем и пакетом? https://tproger.ru/articles/modul-paket-biblioteka-frejmvork-razbiraemsya-v-raznice
+32. Как увеличить и уменьшить целое число в Python? https://javarush.com/groups/posts/inkrement-i-dekrement-v-python
 
-26. Что такое pickle?
-27. Какая разница между словарями и JSON?
-28. Какие ORM вы использовали в Python?
-29. Как работают any() и all()?
-30. Где быстрее поиск: в словарях или списках?
-31. В чем разница между модулем и пакетом?
-32. Как увеличить и уменьшить целое число в Python?
-33. Как вернуть двоичный код целого числа?
+33. Как вернуть двоичный код целого числа? -- bin() https://thecode.media/funkciya-bin-v-python/
 34. Как удалить из списка дубликаты?
 35. Как проверить, существует ли значение в списке?
 36. В чем разница между append и extend?
