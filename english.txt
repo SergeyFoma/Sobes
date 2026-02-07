@@ -36,3 +36,4 @@ takes - принимает
 but - но 
 given - даны, подаренный
 were - были
+not implemented - 
