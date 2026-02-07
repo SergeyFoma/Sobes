@@ -27,7 +27,7 @@ places - места
 seating - сидение
 standing - стоящий
 follow - следовать
-deep - 
+deep - глубокий
 built - выполненный, построенный
 is even - является четным
 digits - цифры
@@ -36,4 +36,8 @@ takes - принимает
 but - но 
 given - даны, подаренный
 were - были
+<<<<<<< HEAD
 not implemented - 
+=======
+available - доступный
+>>>>>>> 662dcafe99f426606c66ef804bb33956fc1f3919
