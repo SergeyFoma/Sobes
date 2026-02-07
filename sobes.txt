@@ -89,12 +89,12 @@ Cкачать видео с rutube - https://video-download.ru/
 30. Где быстрее поиск: в словарях или списках? https://www.geeksforgeeks.org/python/time-complexities-of-python-dictionary/
 31. В чем разница между модулем и пакетом? https://tproger.ru/articles/modul-paket-biblioteka-frejmvork-razbiraemsya-v-raznice
 32. Как увеличить и уменьшить целое число в Python? https://javarush.com/groups/posts/inkrement-i-dekrement-v-python
-
 33. Как вернуть двоичный код целого числа? -- bin() https://thecode.media/funkciya-bin-v-python/
-34. Как удалить из списка дубликаты?
-35. Как проверить, существует ли значение в списке?
-36. В чем разница между append и extend?
-37. Как получить абсолютное значение целого числа?
+34. Как удалить из списка дубликаты? -- https://www.geeksforgeeks.org/python/python-ways-to-remove-duplicates-from-list/
+35. Как проверить, существует ли значение в списке? https://www.geeksforgeeks.org/python/check-if-element-exists-in-list-in-python/
+36. В чем разница между append и extend? https://thecode.media/metod-append-v-python/
+37. Как получить абсолютное значение целого числа? https://www.geeksforgeeks.org/python/abs-in-python/
+
 38. Как объединить два списка в список кортежей?
 39. Как отсортировать словарь по ключам, в алфавитном порядке?
 40. Как реализуется наследование классов в Python?
