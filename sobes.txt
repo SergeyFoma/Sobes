@@ -94,11 +94,13 @@ Cкачать видео с rutube - https://video-download.ru/
 35. Как проверить, существует ли значение в списке? https://www.geeksforgeeks.org/python/check-if-element-exists-in-list-in-python/
 36. В чем разница между append и extend? https://thecode.media/metod-append-v-python/
 37. Как получить абсолютное значение целого числа? https://www.geeksforgeeks.org/python/abs-in-python/
+38. Как объединить два списка в список кортежей? https://sky.pro/wiki/python/sliyanie-spiskov-v-kortezhi-python-luchshee-reshenie/
+39. Как отсортировать словарь по ключам, в алфавитном порядке? https://python-school.ru/blog/data-structures/sort-dict/
 
-38. Как объединить два списка в список кортежей?
-39. Как отсортировать словарь по ключам, в алфавитном порядке?
 40. Как реализуется наследование классов в Python?
-41. Как удалить все пробелы из строки?
+
+41. Как удалить все пробелы из строки? https://metanit.com/python/tutorial/5.2.php
+
 42. Почему мы используем enumerate() при итерации последовательности?
 43. В чем разница между pass, continue и break?
 44. Преобразуйте следующий цикл for в генератор списков (list comprehension)
