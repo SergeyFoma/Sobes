@@ -37,7 +37,8 @@ but - но
 given - даны, подаренный
 were - были
 <<<<<<< HEAD
-not implemented - 
+not implemented - не реализовано
 =======
 available - доступный
 >>>>>>> 662dcafe99f426606c66ef804bb33956fc1f3919
+fill value - значение заполнения
