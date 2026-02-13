@@ -4,8 +4,8 @@ import sys
 #https://tproger.ru/articles/raspredelenie-pamjati-v-python-skolko-i-v-kakih-sluchajah-zanimajut-tipy-dannyh
 
 '''sys.getrefcount — функция в модуле sys Python, которая возвращает количество ссылок на объект. 
-Это значение используется Python для управления памятью: когда счётчик ссылок становится 0, память, 
-занятая объектом, удаляется.'''
+Это значение используется Python для управления памятью: когда счётчик ссылок становится 0, 
+память, занятая объектом, удаляется.'''
 
 # https://habr.com/ru/articles/951742/
 
