@@ -100,8 +100,8 @@ Cкачать видео с rutube - https://video-download.ru/
 40. Как реализуется наследование классов в Python?
 
 41. Как удалить все пробелы из строки? https://metanit.com/python/tutorial/5.2.php
+42. Почему мы используем enumerate() при итерации последовательности? https://sky.pro/wiki/python/kak-ispolzovat-enumerate-v-python-dlya-perebora-spiskov/
 
-42. Почему мы используем enumerate() при итерации последовательности?
 43. В чем разница между pass, continue и break?
 44. Преобразуйте следующий цикл for в генератор списков (list comprehension)
 45. Приведите пример тернарного оператора
