@@ -16,6 +16,8 @@ Use this token to access the HTTP API:
 
 8237776832:AAEFMZBwOOrHCJXUKHKV9JBOjDa08oi2STY
 
+8237776832:AAEFMZBwOOrHCJXUKHKV9JBOjDa08oi2STY
+
 Keep your token secure and store it safely, it can be used by anyone to control your bot.
 
 For a description of the Bot API, see this page: https://core.telegram.org/bots/api'''
@@ -23,14 +25,20 @@ For a description of the Bot API, see this page: https://core.telegram.org/bots/
 # pythonanywhere
 # pip install pyTelegramBotAPI
 
+
 import telebot
 
+name = 'Сергей'
 token = "8237776832:AAEFMZBwOOrHCJXUKHKV9JBOjDa08oi2STY" # нужен, что бы зарегистрировать бота на серверах telegram
 bot = telebot.TeleBot(token) # переменная содержит все необходимые функции
 
 @bot.message_handler(content_types=['text']) # регистрируем функцию в качестве обработчика сообщений типа text
 def echo(message): # функция обработчик
-    bot.send_message(message.chat.id,message.text)
+    if name in message.text:
+        mess='Ба! Знакомые все лица!'
+        bot.send_message(message.chat.id,mess)
+    else:
+        bot.send_message(message.chat.id,message.text)
 bot.polling(none_stop=True) # начинается отправка запросов на сервера tg и спрашивает нет ли для неё сообщений. Если сообщение есть, то начинается обработка
 
 
