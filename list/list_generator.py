@@ -85,3 +85,6 @@ print(ar)
 #Наконец, del может удалять целые переменные.
 del ar
 print(ar)
+
+# https://skillbox.ru/media/code/spiski_v_python_11_voprosov_kotorye_mogut_zadat_na_sobesedovanii/
+#Вопрос 9. Чем список отличается от других структур?
